@@ -1,0 +1,36 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: cyan;
+    color: blue;
+}
+h1{
+    color: darkblue;
+}
+a{
+    color: darkblue;
+}
+a:hover{
+    color: blueviolet;
+}
+ul>li{
+    font-weight: bold;
+}
+h1+ul{
+    background-color: cadetblue;
+    padding: 10px;
+}
+ul li:hover{
+    color: cyan;
+}
+ul li:nth-child(1){
+    background-color: blue;
+}
+ul li::before{
+    content:"🚀" ;
+}
+a::after{
+    content:"🚀" ;
+}
+p::first-letter{
+    font-size: 200%;
+}
